@@ -440,6 +440,7 @@
   }
   html .joe_footer .joe_container > .item {
     padding: 5px 0;
+    text-align: center;
   }
   html .joe_footer .joe_container .run {
     margin: 0;
