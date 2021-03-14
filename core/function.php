@@ -112,8 +112,8 @@ function _getLazyload($type = true)
 /* 获取头像懒加载图 */
 function _getAvatarLazyload($type = true)
 {
-	if ($type) echo "https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/img/lazyload_avatar.gif";
-	else return "https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/img/lazyload_avatar.gif";
+	if ($type) echo "http://www.cctv3.net/Settings/i.gif";
+	else return "http://www.cctv3.net/Settings/i.gif";
 }
 
 /* 查询文章浏览量 */
@@ -222,7 +222,7 @@ function _getThumbnails($item)
 		if ($custom_thumbnail) {
 			$custom_thumbnail_arr = explode("\r\n", $custom_thumbnail);
 			for ($i = 0; $i < 3; $i++) {
-				$result[] = $custom_thumbnail_arr[array_rand($custom_thumbnail_arr, 1)] . "?key=" . mt_rand(0, 1000000);
+				$result[] = $custom_thumbnail_arr[array_rand($custom_thumbnail_arr, 1)];
 			}
 		} else {
 			for ($i = 0; $i < 3; $i++) {
