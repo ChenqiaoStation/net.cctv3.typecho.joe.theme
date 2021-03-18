@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
       !Joe.WALLPAPER_BACKGROUND_PC
     ) {
       $.getScript(
-        `https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/backdrop/${Joe.DYNAMIC_BACKGROUND}`
+        `http://www.cctv3.net/MyCDN/assets/backdrop/${Joe.DYNAMIC_BACKGROUND}`
       );
     }
   }

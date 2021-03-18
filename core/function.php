@@ -226,7 +226,7 @@ function _getThumbnails($item)
 			}
 		} else {
 			for ($i = 0; $i < 3; $i++) {
-				$result[] = 'https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/thumb/' . rand(1, 42) . '.jpg';
+				$result[] = 'http://www.cctv3.net/MyCDN/assets/thumb/' . rand(1, 42) . '.jpg';
 			}
 		}
 	}

@@ -41,7 +41,7 @@ function themeConfig($form)
     $JFavicon = new Typecho_Widget_Helper_Form_Element_Textarea(
         'JFavicon',
         NULL,
-        'https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/favicon.ico',
+        'http://www.cctv3.net/MyCDN/favicon.ico',
         '网站 Favicon 设置',
         '介绍：用于设置网站 Favicon，一个好的 Favicon 可以给用户一种很专业的观感 <br />
          格式：图片 URL地址 或 Base64 地址 <br />
@@ -53,7 +53,7 @@ function themeConfig($form)
     $JLogo = new Typecho_Widget_Helper_Form_Element_Textarea(
         'JLogo',
         NULL,
-        'https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/img/logo.png',
+        'http://www.cctv3.net/MyCDN/assets/logo.png',
         '网站 Logo 设置',
         '介绍：用于设置网站 Logo，一个好的 Logo 能为网站带来有效的流量 <br />
          格式：图片 URL地址 或 Base64 地址 <br />
@@ -371,7 +371,7 @@ function themeConfig($form)
     $JAside_Author_Image = new Typecho_Widget_Helper_Form_Element_Textarea(
         'JAside_Author_Image',
         NULL,
-        "https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/img/aside_author_image.jpg",
+        "http://www.cctv3.net/MyCDN/assets/img/aside_author_image.jpg",
         '博主栏背景壁纸 - PC',
         '介绍：用于修改PC端博主栏的背景壁纸 <br/>
          格式：图片地址 或 Base64地址'
@@ -382,7 +382,7 @@ function themeConfig($form)
     $JAside_Wap_Image = new Typecho_Widget_Helper_Form_Element_Textarea(
         'JAside_Wap_Image',
         NULL,
-        "https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/img/wap_aside_image.jpg",
+        "http://www.cctv3.net/MyCDN/assets/img/wap_aside_image.jpg",
         '博主栏背景壁纸 - WAP',
         '介绍：用于修改WAP端博主栏的背景壁纸 <br/>
          格式：图片地址 或 Base64地址'
@@ -609,7 +609,7 @@ function themeConfig($form)
         '侧边栏广告 - PC',
         '介绍：用于设置侧边栏广告 <br />
          格式：广告图片 || 跳转链接 （中间使用两个竖杠分隔）<br />
-         例如：https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/thumb/1.jpg || https://as.js.cn <br />
+         例如：http://www.cctv3.net/MyCDN/assets/thumb/1.jpg || https://as.js.cn <br />
          注意：如果您只想显示图片不想跳转，可填写：广告图片 || javascript:void(0)'
     );
     $JADContent->setAttribute('class', 'joe_content joe_aside');
@@ -644,7 +644,7 @@ function themeConfig($form)
     $JLazyload = new Typecho_Widget_Helper_Form_Element_Textarea(
         'JLazyload',
         NULL,
-        "https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/img/lazyload.jpg",
+        "http://www.cctv3.net/MyCDN/assets/img/lazyload.jpg",
         '自定义懒加载图',
         '介绍：用于修改主题默认懒加载图 <br/>
          格式：图片地址'
@@ -697,7 +697,7 @@ function themeConfig($form)
     $JShare_QQ_Image = new Typecho_Widget_Helper_Form_Element_Textarea(
         'JShare_QQ_Image',
         NULL,
-        "https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/img/link.png",
+        "http://www.cctv3.net/MyCDN/assets/img/link.png",
         'QQ分享链接图片',
         '介绍：用于修改在QQ内分享时卡片链接显示的图片 <br/>
          格式：图片地址'
@@ -783,7 +783,7 @@ function themeConfig($form)
     $JFriends = new Typecho_Widget_Helper_Form_Element_Textarea(
         'JFriends',
         NULL,
-        'Joe的博客 || https://as.js.cn || https://cdn.jsdelivr.net/gh/HaoOuBa/Joe@master/assets/img/link.png || Eternity is not a distance but a decision',
+        'Joe的博客 || https://as.js.cn || http://www.cctv3.net/MyCDN/assets/img/link.png || Eternity is not a distance but a decision',
         '友情链接（非必填）',
         '介绍：用于填写友情链接 <br />
          注意：您需要先增加友联链接页面（新增独立页面-右侧模板选择友联），该项才会生效 <br />
