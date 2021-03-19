@@ -212,7 +212,7 @@
   left: 142px;
   width: 28px;
   height: 38px;
-  background: url(http://www.cctv3.net/MyCDN/assets/img/search.png);
+  background: url(http://www.cctv3.net/Settings/Search.png);
   background-size: 100% 100%;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -676,8 +676,7 @@
   left: 0;
   width: 100%;
   height: 273px;
-  background: url("http://www.cctv3.net/Settings/Snow.gif")
-    no-repeat;
+  background: url("http://www.cctv3.net/Settings/Snow.gif") no-repeat;
   background-size: cover;
   z-index: 3;
   pointer-events: none;
