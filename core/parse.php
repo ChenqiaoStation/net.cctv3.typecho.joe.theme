@@ -1,13 +1,4 @@
 <?php
-/*
- * @Descripttion: 
- * @version: 
- * @Author: Michael Sun @ www.cctv3.net
- * @Date: 2021-03-07 22:06:05
- * @LastEditors: Michael Sun
- * @LastEditTime: 2021-03-13 00:27:10
- */
-
 /* 过滤短代码 */
 require_once('short.php');
 

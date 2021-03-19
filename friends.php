@@ -1,13 +1,4 @@
-<?php
-
-/**
- * 友联
- * 
- * @package custom 
- * 
- **/
-
-?>
+<?php?>
 
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -15,8 +6,8 @@
 <head>
     <?php $this->need('public/include.php'); ?>
     <!-- 友联页面需要用到的CSS及JS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css">
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <link rel="stylesheet" href="http://www.cctv3.net/MyCDN/theme/prism-tomorrow.css">
+    <script src="http://www.cctv3.net/MyCDN/assets/clipboard.min.js"></script>
     <script src="http://www.cctv3.net/MyCDN/plugin/prism.js"></script>
     <script src="<?php $this->options->themeUrl('assets/js/joe.post&page.min.js'); ?>"></script>
 </head>
