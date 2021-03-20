@@ -18,7 +18,7 @@ function _parseCommentReply($text)
 function _parseReply($text)
 {
     $text = preg_replace_callback(
-        '/\:\:\((\d{1,})@*(Alibaba|Baidu|QQ).png*\)/is',
+        '/\:\:\((\d{1,})@*(Alibaba|Baidu|Wechat).png*\)/is',
         function ($match) {
             return '<img class="owo_image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://www.cctv3.net/Facebook/'.$match[2].'/'.$match[1].'@'.$match[2].'.png" onerror="javascript: this.src=\'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\';" alt="表情"/>';
         },
