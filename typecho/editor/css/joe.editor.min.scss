@@ -72,14 +72,6 @@ body.fullscreen {
                 &::-webkit-scrollbar-track {
                     background: transparent;
                 }
-                &:nth-child(3) .item {
-                    text-align: center;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    width: 50%;
-                    user-select: none;
-                }
                 .item {
                     width: 20%;
                     display: inline-block;

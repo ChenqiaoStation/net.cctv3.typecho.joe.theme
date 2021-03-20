@@ -448,9 +448,6 @@
   html .joe_owo__contain .box .scroll .item {
     width: calc(100% / 6);
   }
-  html .joe_owo__contain .box .scroll:nth-child(3) .item {
-    width: calc(100% / 2);
-  }
   html .joe_comment {
     position: relative;
   }

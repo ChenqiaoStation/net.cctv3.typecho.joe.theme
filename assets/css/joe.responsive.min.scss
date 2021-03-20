@@ -672,9 +672,6 @@ html {
             .item {
               width: calc(100% / 6);
             }
-            &:nth-child(3) .item {
-              width: calc(100% / 2);
-            }
           }
         }
       }

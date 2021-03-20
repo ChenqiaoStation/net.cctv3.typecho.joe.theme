@@ -212,7 +212,7 @@
   left: 142px;
   width: 28px;
   height: 38px;
-  background: url(http://www.cctv3.net/MyCDN/assets/img/search.png);
+  background: url(http://www.cctv3.net/Settings/Search.png);
   background-size: 100% 100%;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -3000,10 +3000,6 @@
 }
 .joe_owo__contain .box .scroll .item:hover {
   background: var(--classD);
-}
-.joe_owo__contain .box .scroll:nth-child(3) .item {
-  color: var(--routine);
-  width: calc(100% / 5);
 }
 .joe_owo__contain .box .bar {
   display: flex;
