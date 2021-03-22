@@ -383,7 +383,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (type === "text" && text.trim() === "")
         return Qmsg.info("请输入评论内容！");
       if (type === "draw") {
-        const txt = $("#joe_comment_draw")[0].toDataURL("image/webp", 0.1);
+        const txt = $("#joe_comment_draw")[0].toDataURL("image/png", 0.18);
         text = "{!{" + txt + "}!} ";
       }
       if (isSubmit) return;
